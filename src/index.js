@@ -1,15 +1,11 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
-import './index.css'
+import { render } from 'react-dom'
+import { BrowserRouter as Router } from 'react-router-dom'
 
-class App extends React.Component {
-    render() {
-        return(
-            <div className="app">
-                <h1>Happy hacking</h1>
-            </div>
-        )
-    }
-}
+import AppRoutes from './rutas.js'
 
-ReactDOM.render(<App />, document.body)
+render(
+    <Router> 
+        <AppRoutes /> 
+    </Router>, 
+    document.body)
