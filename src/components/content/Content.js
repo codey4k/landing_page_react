@@ -1,6 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import './content.css'
+
 export default class Content extends React.Component {
     static propTypes = {
         body: PropTypes.object.isRequired

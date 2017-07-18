@@ -1,0 +1,9 @@
+@import '../.././index.css';
+
+.menu {
+    position : fixed;
+    width : 100%;
+    height : 60px;
+    background : #fff;
+    z-index : 1000;
+}

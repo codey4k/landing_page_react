@@ -1,10 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import Content from './Content.js'
+import Content from '../content/Content.js'
 
-import Header from '../global/header.js'
-import Footer from '../global/footer.js'
+import Menu from '../../global/menu_bar/navBar.js'
+import Footer from '../../global/footer/Footer.js'
 
 export default class App extends React.Component {
     static propTypes = {
@@ -16,7 +16,7 @@ export default class App extends React.Component {
     
         return(
             <div className="app">
-                <Header />
+                <Menu />
                 <Content body={children} />
                 <Footer />
             </div>
