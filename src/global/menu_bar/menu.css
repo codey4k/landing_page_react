@@ -6,4 +6,22 @@
     height : 60px;
     background : #fff;
     z-index : 1000;
+    display : flex;
+}
+
+.menu__container {
+    width : 80%;
+    height : 80%;
+    margin : auto;
+    /*background : blue;*/
+    display : flex;
+    align-items : center;
+    justify-content : center;
+}
+
+.menu__logo {
+    /*margin : auto;*/
+    width : 25px;
+    height : 25px;
+    cursor : pointer;
 }

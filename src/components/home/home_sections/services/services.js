@@ -26,12 +26,12 @@ export default class Services extends React.Component {
                     
                     <div className="services__item">
                         <img src={vector} alt="img" className="services__img"/>
-                        <h2 >Hacking</h2>
+                        <h2 >Design</h2>
                     </div>
                     
                     <div className="services__item">
                         <img src={html} alt="img" className="services__img"/>
-                        <h2 >Hacking</h2>
+                        <h2>Development</h2>
                     </div>
                 </div>
             </div>
