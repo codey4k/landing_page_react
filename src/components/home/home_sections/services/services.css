@@ -40,11 +40,22 @@
 .services__item {
     width : 30%;
     height : 80%;
-    margin : 25px;
+    margin : 20px;
     display : flex;
     justify-content : center;
     align-items : center;
     flex-direction : column;
+}
+
+.services__img {
+    fill : #666;
+    width : 65px;
+    height : 65px;
+}
+
+h2 {
+    color : #666;
+    padding : .6em;
 }
 
 @media screen and (max-width : 360px) {
