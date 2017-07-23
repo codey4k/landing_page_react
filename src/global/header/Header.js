@@ -16,8 +16,10 @@ export default class Header extends React.Component {
                            bgWidth="100%"
                            className="header__parallax" 
                            strength={100}>
-                    <h2>Welcome to CodeY4k web site</h2>
-                    <p>Happy hacking</p>
+                    <div className="header__welcome">
+                        <h2>Welcome to CodeY4k web site</h2>
+                        <p>Happy hacking</p>
+                    </div>
                 </Parallax>
             </div>
         )
