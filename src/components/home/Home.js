@@ -4,6 +4,7 @@ import './home.css'
 import Header from '../../global/header/Header.js'
 import DevSection from './home_sections/devsection/devSection.js'
 import Services from './home_sections/services/services.js'
+import Slide from './home_sections/slide/slide.js'
 
 export default class Home extends React.Component {
     render() {
@@ -11,7 +12,7 @@ export default class Home extends React.Component {
             <div className="home">
                 <Header />
                 <Services />
-                <div className="home__slide"></div>
+                <Slide />
                 <DevSection />
             </div>
         )
