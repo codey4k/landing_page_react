@@ -1,6 +1,6 @@
-const gulp= require('gulp'),
-      sass = require('gulp-sass'),
-      autoprefixer = require('gulp-autoprefixer')
+import gulp from 'gulp'
+import sass from 'gulp-sass'
+import autoprefixer from 'gulp-autoprefixer'
 
 gulp.task('sass',()=>{
     gulp.src('./src/**/*.sass')
