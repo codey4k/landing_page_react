@@ -25,9 +25,33 @@ $color : #333
 
 
     &__logo 
-        width : 60px
-        height : 45px
+        width : 40px
+        height : 25px
         cursor : pointer
+        
     &__logo_y4k
-        width : 70px 
-        height : 70px
+        width : 15vmin 
+        height : 15vmin
+
+
+.iconH
+    width : 40px
+    height : 20px
+    // background : red
+    .item
+        $w : 30px
+        $h : 1px
+        width : $w
+        height : $h
+        background : #eee
+        position : relative
+        &:before, &:after
+            content : ''
+            width : $w
+            height : $h
+            background : #eee
+            position : absolute
+        &:after
+            top : 7px
+        &:before
+            top : 14px

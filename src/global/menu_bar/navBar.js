@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import './menu.css'
 import react from './react.png'
 import logo2 from './logo2.png'
-// import codey4k from './codey4k.png'
+// import hamburger from './hamburger_icon.svg'
 
 export default class Menu extends React.Component {
     render() {
@@ -16,6 +16,9 @@ export default class Menu extends React.Component {
                     <Link to="/">
                         <img src={react} alt="img" className="menu__logo" />
                     </Link>
+                    <div className="iconH">
+                        <div className="item"></div>
+                    </div>
                 </div>
             </div>
         )
