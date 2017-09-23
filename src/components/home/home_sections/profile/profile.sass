@@ -8,7 +8,7 @@
         margin : auto
         width : 400px
         height : 200px
-        box-shadow : 0 0 35px rgba(#555, .3)
+        box-shadow : 0 0 35px rgba(#555, .2)
         display : flex
         align-items : center
         justify-content : center
@@ -22,4 +22,24 @@
     &__info
         width : 200px
         height : 150px
-        background : orange
+        // background : orange
+        display : grid
+        grid-template-columns : repeat(3,1fr)
+        grid-template-rows : 30px 90px 30px
+    &__title,
+    &__description,
+    &__social
+        display : flex
+        align-items : center
+        justify-content : center
+        grid-column : span 3
+        
+    &__title
+        // background : red
+        
+    &__description
+        // background : silver
+        text-align : center
+
+    &__social
+        // background : tomato
