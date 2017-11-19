@@ -5,6 +5,7 @@ import autoprefixer from 'gulp-autoprefixer'
 gulp.task('sass',()=>{
     gulp.src('./src/**/*.sass')
     .pipe(sass())
+    .pipe(autoprefixer())
     .pipe(gulp.dest('./src/'))
 })
 
