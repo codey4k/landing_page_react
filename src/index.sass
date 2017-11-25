@@ -5,12 +5,15 @@
     padding : 0
     box-sizing : border-box
 
-*:selection
+*::selection
     color : #eee
-    background : #a09d9d
+    background : #333
 
 body
     font-family : Helvetica
 
-
-
+    &::-webkit-scrollbar
+        background : #eee
+        width : 5px
+    &::-webkit-scrollbar-thumb
+        background : #333
