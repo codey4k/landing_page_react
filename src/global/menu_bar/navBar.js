@@ -20,6 +20,18 @@ export default class Menu extends React.Component {
     }
     
     componentDidMount() {
+        let menu = document.getElementById('menuIcon'),
+            expanded = document.querySelector('.expanded'),
+            close = document.querySelector('.close')
+        
+        menu.addEventListener('click',()=>{
+            expanded.style.width = '100%'
+        })
+        
+        close.addEventListener('click',()=>{
+            expanded.style.width = '0%'
+        })
+        
         window.addEventListener('scroll', this.handlerScroll)
     }
     
@@ -47,8 +59,11 @@ export default class Menu extends React.Component {
                     <Link to="/">
                         <img src={react} alt="img" className="menu__logo" />
                     </Link>
-                    <div className="iconH">
+                    <div className="iconH" id="menuIcon">
                         <div className="item"></div>
+                    </div>
+                    <div className="expanded">
+                        <span className="close">&times;</span>
                     </div>
                 </div>
             </div>
