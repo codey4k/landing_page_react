@@ -8,4 +8,4 @@ render(
     <Router> 
         <AppRoutes /> 
     </Router>, 
-    document.body)
+    document.getElementById('root'))
