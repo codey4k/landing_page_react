@@ -29,7 +29,10 @@ $color : #333
         width : 40px
         height : 25px
         cursor : pointer
-        
+        transform-origin : 50% 50%
+        animation : 1s react linear inifinite
+
+                
     &__logo_y4k
         width : 15vmin 
         height : 15vmin
@@ -90,3 +93,8 @@ $color : #333
         transition : 1.3s
         &:hover
             background : #444
+            
+            
+@keyframes react
+    to
+        transform : rotate(360deg)
