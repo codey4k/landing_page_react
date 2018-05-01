@@ -62,10 +62,12 @@ export default class Menu extends React.Component {
         return(
             <div className="menu" style={styles}>
                 <div className="menu__container">
-                    <img src={logo2} alt="logo2" className="menu__logo_y4k"/>
                     <Link to="/">
-                        <img src={react} alt="img" className="menu__logo" />
+                        <img src={logo2} alt="logo2" className="menu__logo_y4k"/>
                     </Link>
+                    
+                    <img src={react} alt="img" className="menu__logo" />
+                    
                     <div className="iconH" id="menuIcon">
                         <div className="item"></div>
                     </div>
