@@ -76,7 +76,9 @@ export default class Menu extends React.Component {
                         <ul className="expanded__content">
                             <li className="expanded__item">Home</li>
                             <li className="expanded__item">Blog</li>
-                            <li className="expanded__item">About us</li>
+                            <Link to="/about">
+                                <li className="expanded__item">About us</li>
+                            </Link>
                             <li className="expanded__item">Contact</li>
                         </ul>
                     </div>
